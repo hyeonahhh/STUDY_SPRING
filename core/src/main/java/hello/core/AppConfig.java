@@ -29,7 +29,8 @@ public class AppConfig {
 
     @Bean
     public OrderService orderService() {
-        return new OrderServiceImpl(memberRepository(), discountPolicy());
+        //return new OrderServiceImpl(memberRepository(), discountPolicy());
+        return null;
     }
 
     //구현체(배우)를 바꾸려면 이것만 바꿔주면 된다. (구성영역)
